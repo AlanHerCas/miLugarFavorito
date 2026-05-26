@@ -1,0 +1,67 @@
+/* Selector por etiqueta */
+body{
+    background-color: #e0f1f3;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+}
+
+/* Selector por ID */
+#encabezado{
+    background-color: #6f4e37;
+    color: white;
+    padding: 40px;
+}
+
+/* Selector por clase */
+.contenido{
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+
+h1{
+    font-size: 45px;
+}
+
+/* Hover en título */
+h1:hover{
+    color: #ffd700;
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+/* Imagen */
+.imagen-cafe{
+    max-width: 20px;
+    border-radius: 15px;
+    border: 3px solid #6f4e37;
+    margin-top: 20px;
+}
+
+/* Card personalizada */
+.tarjeta{
+    border: 2px solid #6f4e37;
+}
+
+/* Hover en enlace */
+a:hover{
+    color: red;
+}
+
+/* Hover en botón Bootstrap */
+.btn:hover{
+    transform: scale(1.05);
+}
+
+footer{
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+footer a{
+    color: #ffd700;
+    text-decoration: none;
+}
